@@ -1,0 +1,97 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      font-family: Helvetica;
+      font-size: 12pt;      
+    }
+
+    .row {
+      width: 100%;
+    
+    }
+
+    h3{
+        position: absolute;
+        width: 150px;     
+        border: 1px solid white;
+        color: white;
+        text-align: center;    
+        right: 20px;
+        font-size: 1.25em;
+      }
+
+    h1{
+      color: orange;
+      text-transform: uppercase;
+      margin-top: 30px;
+      margin-bottom: 60px;
+      text-align: center;
+      font-size: 1.75em;
+    }
+
+    h3.chicken{
+      background-color: olive;
+    }
+
+    h3.beef{
+      background-color: orange;
+    }
+
+    h3.sushi{
+      background-color: navy;
+    }
+
+    p{
+      background-color: grey;
+      border: 1px solid black;
+      color: white;
+      height: 150px;
+      margin-bottom: 40px;
+      padding-left: 10px;
+      padding-top: 35px;
+      overflow: auto;
+    }
+        
+    /* media for desktop */
+    @media (min-width: 992px){
+      .col-lg-4{
+        float: left;        
+        width: 33%;
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative;
+      }
+
+    }
+
+    /* media for tablet */
+    @media (min-width: 768px) and (max-width: 991px){
+      .col-md-6, .col-md-12{
+        float: left;
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative;
+      }
+
+      .col-md-6{
+        width: 50%;
+      }
+      .col-md-12{
+        width: 100%;
+      }
+    }
+
+    /* media for small devices */
+    @media (max-width: 767px){
+      .col-sm-12{
+        float: left;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;     
+        position: relative;
+      }
+    }
