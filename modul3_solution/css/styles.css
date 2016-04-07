@@ -1,0 +1,17 @@
+ .item-tile{
+      background-color: grey;
+      border: 1px solid black;
+      color: white;
+      height: auto;
+	  margin: 10px;
+    }
+
+#header-nav {
+  background-color: orange;
+}
+
+#nav-list a {
+  color: green;
+  text-align: center;
+}
+
