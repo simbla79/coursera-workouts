@@ -1,9 +1,14 @@
+body {
+	font-family: Arial, serif;
+}
+
  .item-tile{
       background-color: grey;
       border: 1px solid black;
       color: white;
       height: auto;
-	  margin: 10px;
+	  margin: 20px;
+	  padding:5px;
     }
 
 #header-nav {
@@ -14,4 +19,33 @@
   color: green;
   text-align: center;
 }
+span a{
 
+	text-decoration: none;
+	text-transform: uppercase;
+	color: orange;
+}
+
+span a:hover, span a:focus { 
+	
+	text-decoration: none;
+	text-transform: uppercase;
+	colo:green;
+
+}
+
+h3 {
+	text-transform: uppercase;	
+}
+
+h3.beef {
+	color: red;
+}
+
+h3.sushi {
+	color:blue;
+}
+
+h3.chicken {
+	color: orange;
+}
